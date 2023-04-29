@@ -1,0 +1,47 @@
+#parameter{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.heading{
+    align-items: center;
+    font-family: var(--font-family);
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 2em;
+}
+.model, .phy_para, .elec_para{
+    background-color: white;
+    width: 75%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* height: 20%; */
+}
+.box-heading{
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-top: 15px;
+    text-align: left;
+    
+}
+.phy-sub-heading{
+    padding-top: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.submit{
+    margin-top: 20px;
+}
+.submit p{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
