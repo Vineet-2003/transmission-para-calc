@@ -76,7 +76,22 @@ const SuccessfulPage = () =>{
                     <Box gridColumn={"span 12"}>
                           <Box><p className='heading1'>Your response has been record.</p></Box>
                     </Box>
+                    <Box gridColumn={"span 12"}>
+                          <Box><p className='heading1'>Date of submission: {new Date().toDateString()} {new Date().toLocaleTimeString()} </p></Box>
+                    </Box>
                   </Box>
+                    <Box display="grid" gridTemplateColumns="repeat(12, 1fr)" gap={2}>
+                        <Box gridColumn={"span 12"}>
+                            <Box><p className='heading1'>Team Members</p></Box>
+                        </Box>
+                    </Box>
+                    <Box display="grid" gridTemplateColumns="repeat(12, 1fr)" gap={2}>
+                        <Box gridColumn={"span 12"}>
+                            <Box><p className='heading1'>Harshit Malik (107121039)</p></Box>
+                            <Box><p className='heading1'>Kshitij Kanade (107121045)</p></Box>
+                            <Box><p className='heading1'>Vineet Kumar (107121127)</p></Box>
+                        </Box>
+                    </Box>
 
                   <Box display="grid" gridTemplateColumns="repeat(12, 1fr)" gap={1}>
                       <Box gridColumn={"span 12"} className='sub-box'>
